@@ -6,7 +6,8 @@
 
 .container{
 
-    background-color: #FFB88C;
+    
+    background-image: url("./images/Monte\ Carlo.jpg");
     min-height: 100vh;
     border: 8px groove black;
     
