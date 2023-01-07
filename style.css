@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: #FFB88C;
+    min-height: 100vh;
+    border: 8px groove black;
+    
+
+}
+.content{
+
+ max-width: 1000px;
+ margin: 10px auto;
+
+
+}
+.img_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.topsection h1{
+    font-size: xx-large;
+    color: #023047;
+}
+.topsection h4{
+    font-size: large;
+    color: #023047;
+    text-align: end;
+
+}
+
+
+
+.img_container,img{
+
+    height: 200px;
+    width: 300px;
+
+}
+
+.topsection{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.about{
+    margin-top: 50px;
+}
+
+.nickname{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.para p{
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    text-align: justify;
+}
+
+.bio{
+margin: 50px 0;
+
+}
+
+.bio h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.bio ul{
+    margin-left: 50px;
+}
+
+.bio li{
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+
+.footer{
+    font-size: 20px;
+    text-align: end;
+    margin: 50px 5px;
+
+}
+/*
+ media query for responsive of website
+*/
+@media (max-width:1200px)
+{
+  .topsection h4{
+    margin-right: 80px;
+  }
+  .topsection h1{
+    padding-right: 80px;
+  }
+  .content{
+    margin: 0 10px;
+  }
+  .img_container,img{
+
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.img_container{
+    margin-bottom: 10px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px)
+{
+  .topsection h1{
+
+    padding-right: 10px;
+
+
+
+  }
+  .topsection h4{
+
+    margin-right: 10px;
+
+
+
+  }
+
+    
+  .content{
+    margin: 0 10px;
+  }
+  .img_container,img{
+
+    height: 200px;
+    width: 20 0px;
+
+}
+
+
+.img_container{
+    margin-bottom: 10px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:480px)
+{
+  .topsection h4{
+    margin-right:5px;
+  }
+  .content{
+    margin: 0 10px;
+  }
+  .img_container,img{
+
+    height: 150px;
+    width: 150px;
+
+}
+
+.topsection {
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img_container{
+    margin-bottom: 10px;
+}
+
+
+
+
+}
+
+
